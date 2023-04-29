@@ -28,6 +28,12 @@ pysocks = "*"
 sendgrid = "*"
 dj-rest-auth = "*"
 flake8 = "*"
+joblib = "*"
+scikit-learn = "*"
+librosa = "*"
+soundfile = "*"
+numpy = "*"
+pyaudio = "*"
 
 [dev-packages]
 

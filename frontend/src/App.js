@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
-import logo from './logo.svg';
+import Homepage from "./pages/homepage";
+
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<h1>Home</h1>} />
+          <Route path="/" element={<Homepage/>} />
         </Routes>
         <Toaster/>
       </Router>

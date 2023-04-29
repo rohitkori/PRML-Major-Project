@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+}
+.homepage-container {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath4226%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='15.88' cx='680.74' cy='295.95' fill='url(%23SvgjsLinearGradient4227)'%3e%3c/circle%3e%3ccircle r='24.16' cx='1153.99' cy='366.69' fill='url(%23SvgjsLinearGradient4228)'%3e%3c/circle%3e%3ccircle r='35.645' cx='357.57' cy='396.07' fill='url(%23SvgjsLinearGradient4229)'%3e%3c/circle%3e%3ccircle r='34.935' cx='1083.57' cy='67.52' fill='url(%23SvgjsLinearGradient4230)'%3e%3c/circle%3e%3ccircle r='41.02' cx='773.83' cy='158.91' fill='url(%23SvgjsLinearGradient4231)'%3e%3c/circle%3e%3ccircle r='42.565' cx='874.46' cy='531.57' fill='url(%23SvgjsLinearGradient4232)'%3e%3c/circle%3e%3ccircle r='19.005' cx='607.02' cy='298.55' fill='url(%23SvgjsLinearGradient4233)'%3e%3c/circle%3e%3ccircle r='37.42' cx='139.24' cy='466.16' fill='url(%23SvgjsLinearGradient4234)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath4226'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='648.98' y1='295.95' x2='712.5' y2='295.95' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4227'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1105.67' y1='366.69' x2='1202.3100000000002' y2='366.69' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4228'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='286.28' y1='396.07' x2='428.86' y2='396.07' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4229'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1013.6999999999999' y1='67.52' x2='1153.44' y2='67.52' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4230'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='691.7900000000001' y1='158.91' x2='855.8700000000001' y2='158.91' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4231'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='789.33' y1='531.57' x2='959.59' y2='531.57' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4232'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='569.01' y1='298.55' x2='645.03' y2='298.55' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4233'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='64.4' y1='466.1600000000001' x2='214.08' y2='466.1600000000001' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4234'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.homepage-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-form label {
+  color: white;
+}
+
+.homepage-form label input {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #530404;
+  color: #fff;
+  background-color: transparent;
+}
+
+.homepage-submit input {
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #530404;
+  color: black;
+  background-color: white;
+}
