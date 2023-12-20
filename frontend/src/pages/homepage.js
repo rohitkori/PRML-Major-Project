@@ -1,11 +1,14 @@
 import { React, UseEffect, useEffect, useState } from "react";
+import Popup from 'reactjs-popup';
 import axios from "axios";
 import logo from "../Assets/logo.png";
 import { API_BASE_URL } from "../config.js";
 import "./homepage.css";
+// import 'reactjs-popup/dist/index.css';
 
 function Homepage() {
   const [audioFile, setAudioFile] = useState(null);
+  const [result, setResult] = useState(null);
   const BaseUrl = API_BASE_URL;
 
   const handleSubmit = async (event) => {
@@ -18,7 +21,8 @@ function Homepage() {
 
       const response = await axios.post(BaseUrl + "/predict/", formData);
       if (response.status === 200) {
-        console.log(response.data);
+        console.log(response.data.output);
+        setResult(response.data.output);
       } else {
         console.log("error");
       }
@@ -54,9 +58,11 @@ function Homepage() {
               </div>
             </label>
             {/* <div className="homepage-submit">
-             
             </div> */}
-            <div class="btn-submit">
+            <div className="form-result">
+              <p>{result}</p>
+            </div>
+            <div className="btn-submit" onClick={handleSubmit}>
               <input type="submit" />
             </div>
           </form>

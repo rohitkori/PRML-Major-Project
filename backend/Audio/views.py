@@ -36,7 +36,7 @@ class Predict(APIView):
         feature_info = np.mean(feature_info.T, axis=0)
         data = scaler.transform(feature_info.reshape(1,-1))
         # a = ann.predict(data)
-        print(a)
+        # print(a)
         output = svm.predict(data)
         return Response({'output':map[output[0]]})
         # return Response({'output':svm.predict(data)})

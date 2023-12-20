@@ -52,7 +52,7 @@ html {
 .btn-div {
   display: flex;
   justify-content: center;
-  margin: 0 0 5rem 0;
+  margin: 0 0 2rem 0;
   font-size: 1.2rem;
   /* padding: 1rem 2.5rem; */
   border: none;
@@ -70,7 +70,7 @@ html {
 }
 .btn{
   border: 1px solid black;
-  padding: 10rem;
+  padding: 8rem;
 }
 .btn input {
   display: flex;
@@ -117,3 +117,12 @@ html {
   );
   color: rgb(4, 4, 38);
 } */
+
+.form-result p {
+  font-size: 5rem;
+  font-weight: 700;
+  color: cadetblue;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+

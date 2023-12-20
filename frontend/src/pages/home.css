@@ -28,6 +28,7 @@
 .bottom-left {
   color: white;
   width: 50%;
+  margin: 2rem;
 }
 .bottom-left h1 {
   font-size: 5rem;
@@ -49,10 +50,13 @@
   width: 100%;
 }
 .home-btn {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 1rem 2.5rem;
+  margin: 5rem 0;
   border: none;
   outline: none;
+  display: flex;
+  justify-content: center;
   border-radius: 0.4rem;
   cursor: pointer;
   text-transform: uppercase;
@@ -60,7 +64,7 @@
   color: rgb(234, 234, 234);
   font-weight: 700;
   transition: 0.6s;
-  box-shadow: 0px 0px 60px #1f4c65;
+  box-shadow: 0px 0px 60px #479fcf;
   -webkit-box-reflect: below 10px
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
