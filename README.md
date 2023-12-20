@@ -1,4 +1,6 @@
-# PRML-Major-Project
+# Speech Emotion Recognition
+
+<img src="./frontend/src/Assets/Speech-Emotion-Recogniton-cover.png"/>
 
 ## Steps to run the project
 
